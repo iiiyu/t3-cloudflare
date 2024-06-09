@@ -1,5 +1,12 @@
 # Cloudflare setup
 
+## Initial Notice
+Date: June 9, 2024
+1. Avoid using Prisma, as Cloudflare Pages has a file size limit of 1MB.
+2. Refrain from utilizing the NextAuth.js 4.x version as it is not functional. However, Auth.js 5.0 (beta) is acceptable.
+
+## How to use it
+
 For dev mode you need to:
 
 1. Create a D1 Database, Cloudflare's [guide](https://developers.cloudflare.com/d1/get-started/#3-create-a-database)
