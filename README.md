@@ -98,6 +98,13 @@ Now you can run drizzle studio
 bun db:studio
 ```
 
+# AuthJS
+
+Set `AUTH_SECRET`
+```shell
+openssl rand -base64 33
+```
+
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
